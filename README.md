@@ -2,6 +2,8 @@
 
 Premium 2026-style 3D interactive portfolio with motion design, skill logos, and performance safeguards. Built with Next.js, Tailwind, Framer Motion, GSAP, and React Three Fiber.
 
+live site: https://gayatri-kr.netlify.app
+
 ## Run
 
 ```bash
