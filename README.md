@@ -4,6 +4,8 @@ Premium 2026-style 3D interactive portfolio with motion design, skill logos, and
 
 **Live site:** [gayatri-kr.netlify.app](https://gayatri-kr.netlify.app)
 
+live site: https://gayatri-kr.netlify.app
+
 ## Run
 
 ```bash
