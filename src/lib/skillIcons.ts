@@ -47,6 +47,10 @@ export const skillIconMap: Record<string, string> = {
   digitalocean: `${CDN}/digitalocean/digitalocean-original.svg`,
   authentication: `${CDN}/firebase/firebase-plain.svg`,
   sso: `${CDN}/firebase/firebase-plain.svg`,
+  fastapi: `${CDN}/fastapi/fastapi-original.svg`,
+  pyspark: `${CDN}/apachespark/apachespark-original.svg`,
+  neo4j: `${CDN}/neo4j/neo4j-original.svg`,
+  ajax: `${CDN}/javascript/javascript-original.svg`,
 };
 
 /** Synonyms: input token -> canonical key */
@@ -65,6 +69,9 @@ const synonyms: Record<string, string> = {
   oci: "oracle",
   rest: "express",
   apis: "express",
+  "apache spark": "pyspark",
+  spark: "pyspark",
+  "xmlhttprequest": "ajax",
   lstm: "tensorflow",
   transformers: "tensorflow",
   nlp: "tensorflow",

@@ -11,6 +11,8 @@ const SECTIONS = [
   { id: "hero", label: "Hero" },
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
+  { id: "certifications", label: "Certifications" },
   { id: "projects", label: "Projects" },
   { id: "skills", label: "Skills" },
   { id: "publications", label: "Publications" },

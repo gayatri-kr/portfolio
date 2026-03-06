@@ -48,6 +48,10 @@ export const skillDescriptions: Record<string, string> = {
   "rest apis": "RESTful APIs — web services using HTTP methods for data exchange.",
   "statistical analysis": "Using statistics to analyze and interpret data patterns.",
   "data validation": "Ensuring data quality and integrity through validation rules.",
+  fastapi: "Modern, fast Python web framework for building APIs with automatic OpenAPI docs.",
+  pyspark: "Python API for Apache Spark — distributed computing for big data processing.",
+  ajax: "Asynchronous JavaScript and XML — technique for updating web pages without full reload.",
+  neo4j: "Graph database for modeling and querying connected data with Cypher.",
 };
 
 export function getSkillDescription(skill: string): string {

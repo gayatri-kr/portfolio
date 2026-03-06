@@ -2,6 +2,7 @@
 
 import { profile } from "@/content/profile";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { container, item } from "@/lib/motion";
 
 export default function Experience() {
@@ -35,14 +36,27 @@ export default function Experience() {
               }}
             >
               <div className="flex flex-wrap justify-between items-start gap-2 mb-3">
-                <div>
-                  <h3 className="text-lg font-semibold text-violet-400">
-                    {exp.role}
-                  </h3>
-                  <p className="text-[var(--text)] font-medium">{exp.company}</p>
-                  <p className="text-sm text-zinc-500">
-                    {exp.location} · {exp.dates}
-                  </p>
+                <div className="flex items-start gap-3 flex-1 min-w-0">
+                  <div>
+                    <h3 className="text-lg font-semibold text-violet-400">
+                      {exp.role}
+                    </h3>
+                    <p className="text-[var(--text)] font-medium">{exp.company}</p>
+                    <p className="text-sm text-zinc-500">
+                      {exp.location} · {exp.dates}
+                    </p>
+                  </div>
+                  {"logo" in exp && exp.logo && (
+                    <div className="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-white/15 border-2 border-zinc-600/50 flex items-center justify-center p-2">
+                      <Image
+                        src={exp.logo}
+                        alt={exp.company}
+                        width={64}
+                        height={64}
+                        className="object-contain w-full h-full"
+                      />
+                    </div>
+                  )}
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {exp.tags.map((tag, j) => (

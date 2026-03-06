@@ -26,6 +26,7 @@ export const profile = {
       role: "Associate Software Development Engineer",
       location: "Bengaluru, India",
       dates: "Jan 2022 – Feb 2023",
+      logo: "/logos/trellix.png",
       bullets: [
         "Migrated historical event storage from Elasticsearch to Snowflake, enabling a scalable cross-product data warehouse.",
         "Optimized high-volume SQL queries, reducing latency by 45% (2.2s → 1.2s) and improving platform performance.",
@@ -40,6 +41,7 @@ export const profile = {
       role: "AI Software Engineer Intern",
       location: "Bengaluru, India",
       dates: "Feb 2025 – Oct 2025",
+      logo: "/logos/foremost.png",
       bullets: [
         "Built AI-powered prototypes using Python and OpenAI APIs to automate text processing and enterprise workflows.",
         "Developed REST APIs and backend services to integrate AI models with web applications for real-time automation.",
@@ -53,6 +55,7 @@ export const profile = {
       role: "ECS IT Consulting Student Assistant",
       location: "Sacramento, CA",
       dates: "Jan 2024 – Dec 2025",
+      logo: "/logos/csus.png",
       bullets: [
         "Resolved 100+ weekly cross-platform issues (Windows/Linux/macOS) using ServiceNow, reducing downtime for 1,000+ users.",
         "Deployed and maintained 40+ lab systems using SCCM, improving lab uptime and software reliability.",
@@ -72,6 +75,104 @@ export const profile = {
         "Implemented data validation workflows and reporting pipelines to improve data quality for planning and decision-making.",
       ],
       tags: ["SQL", "Power BI", "Reporting", "ETL"],
+    },
+  ],
+
+  education: [
+    {
+      degree: "Master of Science (M.S.), Computer Science — 3.56/4",
+      institution: "California State University, Sacramento",
+      location: "Sacramento, CA",
+      dates: "2023 – 2025",
+      logo: "/logos/csus.png",
+      notes: [
+        "Strong foundation in AI, ML, and database concepts.",
+        "Member of HinduYuva (Financier) and Data Science Club.",
+      ],
+    },
+    {
+      degree: "Bachelor of Technology, Computer Science — 3.48/4",
+      institution: "Amrita Vishwa Vidyapeetham",
+      location: "Bangalore, Karnataka, India",
+      dates: "2018 – 2022",
+      logo: "/logos/amrita-logo.png",
+      notes: [
+        "Strong foundation in programming, algorithms, and computer science principles.",
+        "Member of Amritadhara (Students Activities Council), Raaga (Music Club), Sankhya (Mathematics Club), IEEE Students' Chapter.",
+      ],
+    },
+  ],
+
+  certifications: [
+    {
+      name: "AWS Knowledge: Cloud Essentials",
+      issuer: "Amazon Web Services (AWS)",
+      date: "Oct 2024",
+      url: "https://credly.com/badges/ead27840-c8e8-400e-bf6a-5a5f03c3ca4a/linked_in_profile",
+      logo: "/logos/aws.png",
+    },
+    {
+      name: "JavaScript Intermediate Skill Certificate",
+      issuer: "HackerRank",
+      date: "Oct 2024",
+      url: "https://hackerrank.com/certificates/iframe/941962766f92",
+      logo: "/logos/hackerrank.png",
+    },
+    {
+      name: "SQL Advanced Skill Certificate",
+      issuer: "HackerRank",
+      date: "Oct 2024",
+      url: "https://hackerrank.com/certificates/iframe/f9baecd126df",
+      logo: "/logos/hackerrank.png",
+    },
+    {
+      name: "Microsoft Azure AI Fundamentals",
+      issuer: "Microsoft",
+      date: "Sep 2024",
+      url: "https://learn.microsoft.com/en-us/users/gayatrikr/transcript/763jxflor442y63",
+      logo: "/logos/microsoft.png",
+    },
+    {
+      name: "Microsoft Azure Data Fundamentals",
+      issuer: "Microsoft",
+      date: "Sep 2024",
+      url: "https://learn.microsoft.com/en-us/users/gayatrikr/transcript/763jxflor442y63",
+      logo: "/logos/microsoft.png",
+    },
+    {
+      name: "Python 3 Language Course",
+      issuer: "Codecademy",
+      date: "Jul 2024",
+      url: "https://codecademy.com/profiles/gayatrikr/certificates/6c152bd262967f8c941c9707ed636bda",
+      logo: "/logos/codecademy.png",
+    },
+    {
+      name: "CSS Basic Skill Certificate",
+      issuer: "HackerRank",
+      date: "Mar 2023",
+      url: "https://hackerrank.com/certificates/iframe/344b5c74bf8f",
+      logo: "/logos/hackerrank.png",
+    },
+    {
+      name: "Java Basic Skill Certificate",
+      issuer: "HackerRank",
+      date: "Mar 2023",
+      url: "https://hackerrank.com/certificates/iframe/73a9adfe2b83",
+      logo: "/logos/hackerrank.png",
+    },
+    {
+      name: "Python Basic Skill Certificate",
+      issuer: "HackerRank",
+      date: "Mar 2023",
+      url: "https://hackerrank.com/certificates/iframe/806af38692c8",
+      logo: "/logos/hackerrank.png",
+    },
+    {
+      name: "Introduction to Programming Using HTML and CSS",
+      issuer: "Progate",
+      date: "Dec 2020",
+      url: "https://progate.com/course_certificate/ec8e1432qlzlz7",
+      logo: "/logos/progate.png",
     },
   ],
 
@@ -245,8 +346,9 @@ export const profile = {
       "HTML5",
       "CSS3",
       "Bootstrap",
+      "AJAX",
     ],
-    "Backend & APIs": ["Node.js", "Express.js", "REST APIs", "Spring Boot"],
+    "Backend & APIs": ["Node.js", "Express.js", "REST APIs", "Spring Boot", "FastAPI"],
     "Cloud & DevOps": ["AWS", "Azure", "OCI", "Docker", "Kubernetes", "CI/CD"],
     "AI / ML": [
       "LLMs",
@@ -258,6 +360,7 @@ export const profile = {
       "GenAI",
       "Pandas",
       "NumPy",
+      "PySpark",
     ],
     "Data & Analytics": [
       "SQL",
@@ -265,6 +368,7 @@ export const profile = {
       "ETL",
       "Data Validation",
       "Statistical Analysis",
+      "Neo4j",
     ],
     "Tools": ["Git", "ServiceNow", "Microsoft Office"],
   },

@@ -2,6 +2,8 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import Certifications from "@/components/Certifications";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Publications from "@/components/Publications";
@@ -16,6 +18,8 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <Education />
+      <Certifications />
       <Projects />
       <Skills />
       <Publications />
