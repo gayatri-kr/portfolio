@@ -37,7 +37,11 @@ export default function Publications() {
                 rel="noopener noreferrer"
                 className="text-sm text-violet-400 hover:underline"
               >
-                Read on Springer →
+                {pub.link.includes("proquest.com")
+                  ? "View on ProQuest →"
+                  : pub.link.includes("springer.com")
+                    ? "Read on Springer →"
+                    : "Read more →"}
               </a>
             </motion.article>
           ))}

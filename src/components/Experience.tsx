@@ -43,7 +43,8 @@ export default function Experience() {
                     </h3>
                     <p className="text-[var(--text)] font-medium">{exp.company}</p>
                     <p className="text-sm text-zinc-500">
-                      {exp.location} · {exp.dates}
+                      {exp.location ? `${exp.location} · ` : ""}
+                      {exp.dates}
                     </p>
                   </div>
                   {"logo" in exp && exp.logo && (

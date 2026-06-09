@@ -40,7 +40,8 @@ export default function Education() {
                   <h3 className="text-lg font-semibold text-violet-400">{edu.degree}</h3>
                   <p className="text-[var(--text)] font-medium">{edu.institution}</p>
                   <p className="text-sm text-zinc-500">
-                    {edu.location} · {edu.dates}
+                    {edu.location ? `${edu.location} · ` : ""}
+                    {edu.dates}
                   </p>
                 </div>
                 {"logo" in edu && edu.logo && (

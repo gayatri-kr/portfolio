@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     "Software Engineer",
     "MERN",
     "Python",
-    "Sacramento",
   ],
   authors: [{ name: profile.name, url: profile.links.github }],
   openGraph: {

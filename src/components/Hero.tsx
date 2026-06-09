@@ -25,12 +25,14 @@ export default function Hero() {
           animate="show"
           className="max-w-4xl mx-auto text-center"
         >
-          <motion.p
-            variants={item}
-            className="text-violet-400 font-mono text-sm tracking-widest mb-4"
-          >
-            {profile.location}
-          </motion.p>
+          {profile.location && (
+            <motion.p
+              variants={item}
+              className="text-violet-400 font-mono text-sm tracking-widest mb-4"
+            >
+              {profile.location}
+            </motion.p>
+          )}
           <motion.h1
             variants={item}
             className="gradient-text text-4xl md:text-6xl font-bold mb-4"

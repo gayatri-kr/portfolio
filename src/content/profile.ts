@@ -3,9 +3,9 @@
  */
 export const profile = {
   name: "Gayatri Kancherla Ramesh",
-  location: "Sacramento, CA",
-  email: "krgayatri.30@gmail.com",
-  phone: "916-490-0282",
+  location: "",
+  email: "kr.gayatri04@gmail.com",
+  phone: "+91-6381090922",
   headline:
     "Full-Stack & Software Engineer | AI + Data Systems | MERN • Spring Boot • Python • SQL • Cloud",
   pitch:
@@ -22,46 +22,43 @@ export const profile = {
 
   experience: [
     {
+      company: "California State University, ECS Dean's Office",
+      role: "ECS IT Consulting Student Assistant",
+      location: "",
+      dates: "Jan 2024 – Dec 2025",
+      logo: "/logos/csus.png",
+      bullets: [
+        "Diagnosed and resolved 100+ weekly cross-platform technical issues (Windows, Linux, macOS) using ServiceNow, improving system stability and reducing downtime for 1,000+ users.",
+        "Deployed and maintained 40+ lab systems using SCCM, improving software reliability and lab uptime.",
+        "Optimized ServiceNow workflows and documentation, reducing repeat issue frequency and improving ticket resolution times.",
+      ],
+      tags: ["ServiceNow", "SCCM", "Windows", "Linux", "macOS"],
+    },
+    {
+      company: "California State University – Information Resources & Technology",
+      role: "Web Developer",
+      location: "",
+      dates: "Jan 2024 – Dec 2025",
+      logo: "/logos/csus.png",
+      bullets: [
+        "Supported Sacramento State's Information Resources & Technology team in improving campus web platforms, content quality, accessibility, and user experience for students, faculty, staff, and university departments.",
+        "Developed Python-based automation workflows to analyze university web pages and digital documents, identifying outdated, duplicate, and non-compliant content for cleanup, remediation, and structured reporting.",
+        "Applied machine learning classification, GA4 analytics, and benchmarking insights to organize university documents, identify underperforming web sections, and recommend data-driven content strategy improvements.",
+      ],
+      tags: ["Python", "Web Development", "GA4", "ML", "Accessibility"],
+    },
+    {
       company: "Trellix (formerly McAfee Enterprise)",
-      role: "Associate Software Development Engineer",
+      role: "Associate Technical Support Engineer",
       location: "Bengaluru, India",
       dates: "Jan 2022 – Feb 2023",
       logo: "/logos/trellix.png",
       bullets: [
-        "Migrated historical event storage from Elasticsearch to Snowflake, enabling a scalable cross-product data warehouse.",
-        "Optimized high-volume SQL queries, reducing latency by 45% (2.2s → 1.2s) and improving platform performance.",
-        "Refactored frontend API integrations and backend data workflows; contributed to 1.5× overall performance and ~35% cost reduction.",
-        "Resolved enterprise escalations by reproducing issues in Linux lab environments, analyzing logs, and collaborating via JIRA.",
-        "Improved security by identifying and fixing XSS vulnerabilities; supported NX/EX/FX/AX/CM/PX-IA/Helix platforms.",
+        "Provided technical support for FireEye/Trellix cybersecurity products (NX, EX, FX, AX, CM, PX-IA, Helix), troubleshooting and managing appliances, which reduced average resolution time and improved customer satisfaction.",
+        "Supported incident response, forensic analysis, remediation, and breach-prevention by handling customer calls, chats, and remote sessions, enabling timely containment of threats and preserving client data integrity.",
+        "Identified and reproduced customer issues in the lab, found root causes, and created Jira tickets to speed up engineering fixes.",
       ],
-      tags: ["Snowflake", "SQL", "APIs", "Linux", "JIRA", "Security"],
-    },
-    {
-      company: "Foremost IT Solutions Pvt Ltd",
-      role: "AI Software Engineer Intern",
-      location: "Bengaluru, India",
-      dates: "Feb 2025 – Oct 2025",
-      logo: "/logos/foremost.png",
-      bullets: [
-        "Built AI-powered prototypes using Python and OpenAI APIs to automate text processing and enterprise workflows.",
-        "Developed REST APIs and backend services to integrate AI models with web applications for real-time automation.",
-        "Improved responsiveness via data preprocessing, prompt optimization, and iterative testing.",
-        "Collaborated with developers to design and test AI-enabled features for decision-support use cases.",
-      ],
-      tags: ["Python", "OpenAI APIs", "REST", "Automation"],
-    },
-    {
-      company: "California State University, ECS Dean's Office",
-      role: "ECS IT Consulting Student Assistant",
-      location: "Sacramento, CA",
-      dates: "Jan 2024 – Dec 2025",
-      logo: "/logos/csus.png",
-      bullets: [
-        "Resolved 100+ weekly cross-platform issues (Windows/Linux/macOS) using ServiceNow, reducing downtime for 1,000+ users.",
-        "Deployed and maintained 40+ lab systems using SCCM, improving lab uptime and software reliability.",
-        "Improved documentation and workflows to reduce repeated issues and speed up resolution times.",
-      ],
-      tags: ["ServiceNow", "SCCM", "IT Support"],
+      tags: ["Cybersecurity", "Jira", "Incident Response", "Helix"],
     },
     {
       company: "Ramsai Food Products",
@@ -69,12 +66,11 @@ export const profile = {
       location: "Chittoor, India",
       dates: "Jan 2020 – Jan 2022",
       bullets: [
-        "Cleaned and organized production, inventory, and export datasets using SQL, Excel, and Power BI for reliable reporting.",
-        "Built Power BI dashboards and automated reports to monitor production output, shipment status, and inventory trends.",
-        "Analyzed sales and export data with operations/logistics teams to improve demand forecasting and reporting turnaround.",
-        "Implemented data validation workflows and reporting pipelines to improve data quality for planning and decision-making.",
+        "Cleaned and organized production, inventory, sales, and export datasets using SQL, Excel, and Power BI, improving reporting accuracy and supporting faster operational decision-making.",
+        "Built Power BI dashboards, automated reports, data validation workflows, and reporting pipelines, improving data quality, real-time visibility, and reducing manual reporting time by 40%.",
+        "Collaborated with operations and logistics teams to analyze sales and export trends, improving demand forecasting, inventory planning, and reporting turnaround time.",
       ],
-      tags: ["SQL", "Power BI", "Reporting", "ETL"],
+      tags: ["SQL", "Power BI", "Excel", "ETL", "Reporting"],
     },
   ],
 
@@ -82,7 +78,7 @@ export const profile = {
     {
       degree: "Master of Science (M.S.), Computer Science — 3.56/4",
       institution: "California State University, Sacramento",
-      location: "Sacramento, CA",
+      location: "",
       dates: "2023 – 2025",
       logo: "/logos/csus.png",
       notes: [
@@ -330,6 +326,12 @@ export const profile = {
   ],
 
   publications: [
+    {
+      title:
+        "AI-Powered Personalized Nutrition Planning System Using a Fusion Model of LSTM and Transformer and Integrating Genomic, and Mental Health Data",
+      venue: "California State University, Sacramento — ProQuest Dissertations & Theses (Dec 2025)",
+      link: "https://www.proquest.com/docview/3309893496",
+    },
     {
       title: "Air Writing Recognition Using MediaPipe and OpenCV",
       venue:
