@@ -22,19 +22,6 @@ export const profile = {
 
   experience: [
     {
-      company: "California State University, ECS Dean's Office",
-      role: "ECS IT Consulting Student Assistant",
-      location: "",
-      dates: "Jan 2024 – Dec 2025",
-      logo: "/logos/csus.png",
-      bullets: [
-        "Diagnosed and resolved 100+ weekly cross-platform technical issues (Windows, Linux, macOS) using ServiceNow, improving system stability and reducing downtime for 1,000+ users.",
-        "Deployed and maintained 40+ lab systems using SCCM, improving software reliability and lab uptime.",
-        "Optimized ServiceNow workflows and documentation, reducing repeat issue frequency and improving ticket resolution times.",
-      ],
-      tags: ["ServiceNow", "SCCM", "Windows", "Linux", "macOS"],
-    },
-    {
       company: "California State University – Information Resources & Technology",
       role: "Web Developer",
       location: "",
@@ -46,6 +33,19 @@ export const profile = {
         "Applied machine learning classification, GA4 analytics, and benchmarking insights to organize university documents, identify underperforming web sections, and recommend data-driven content strategy improvements.",
       ],
       tags: ["Python", "Web Development", "GA4", "ML", "Accessibility"],
+    },
+    {
+      company: "California State University, ECS Dean's Office",
+      role: "ECS IT Consulting Student Assistant",
+      location: "",
+      dates: "Jan 2024 – Dec 2025",
+      logo: "/logos/csus.png",
+      bullets: [
+        "Diagnosed and resolved 100+ weekly cross-platform technical issues (Windows, Linux, macOS) using ServiceNow, improving system stability and reducing downtime for 1,000+ users.",
+        "Deployed and maintained 40+ lab systems using SCCM, improving software reliability and lab uptime.",
+        "Optimized ServiceNow workflows and documentation, reducing repeat issue frequency and improving ticket resolution times.",
+      ],
+      tags: ["ServiceNow", "SCCM", "Windows", "Linux", "macOS"],
     },
     {
       company: "Trellix (formerly McAfee Enterprise)",
