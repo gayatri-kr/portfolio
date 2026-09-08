@@ -60,18 +60,6 @@ export const profile = {
       ],
       tags: ["Cybersecurity", "Jira", "Incident Response", "Helix"],
     },
-    {
-      company: "Ramsai Food Products",
-      role: "Junior Data Software Engineer",
-      location: "Chittoor, India",
-      dates: "Jan 2020 – Jan 2022",
-      bullets: [
-        "Cleaned and organized production, inventory, sales, and export datasets using SQL, Excel, and Power BI, improving reporting accuracy and supporting faster operational decision-making.",
-        "Built Power BI dashboards, automated reports, data validation workflows, and reporting pipelines, improving data quality, real-time visibility, and reducing manual reporting time by 40%.",
-        "Collaborated with operations and logistics teams to analyze sales and export trends, improving demand forecasting, inventory planning, and reporting turnaround time.",
-      ],
-      tags: ["SQL", "Power BI", "Excel", "ETL", "Reporting"],
-    },
   ],
 
   education: [
