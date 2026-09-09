@@ -18,45 +18,35 @@ export const profile = {
   },
 
   summary:
-    "Full-stack and Software Engineer experienced in building scalable web applications and data systems for enterprise environments. Delivered significant improvements in system speed and cost efficiency through successful migration and automation projects, and integrated AI features into real-time workflows. Skilled in Python, SQL, cloud platforms, and modern frontend/backend development. Interested in roles across Full-Stack, Backend, and AI engineering.",
+    "Software Engineer with experience building scalable web applications, automation solutions, AI-powered systems, and enterprise software. Experienced in Python, Java, JavaScript, SQL, cloud technologies, REST APIs, and full-stack development. Proven ability to automate workflows, analyse large-scale datasets, improve digital platforms, and develop AI-driven solutions across enterprise, academic, and cybersecurity environments.",
 
   experience: [
     {
       company: "California State University – Information Resources & Technology",
-      role: "Web Developer",
+      role: "Web Developer & IT Consulting Student Assistant",
       location: "",
       dates: "Jan 2024 – Dec 2025",
       logo: "/logos/csus.png",
       bullets: [
-        "Supported Sacramento State's Information Resources & Technology team in improving campus web platforms, content quality, accessibility, and user experience for students, faculty, staff, and university departments.",
-        "Developed Python-based automation workflows to analyze university web pages and digital documents, identifying outdated, duplicate, and non-compliant content for cleanup, remediation, and structured reporting.",
-        "Applied machine learning classification, GA4 analytics, and benchmarking insights to organize university documents, identify underperforming web sections, and recommend data-driven content strategy improvements.",
-      ],
-      tags: ["Python", "Web Development", "GA4", "ML", "Accessibility"],
-    },
-    {
-      company: "California State University, ECS Dean's Office",
-      role: "ECS IT Consulting Student Assistant",
-      location: "",
-      dates: "Jan 2024 – Dec 2025",
-      logo: "/logos/csus.png",
-      bullets: [
+        "Supported 20+ university departments in improving campus web platforms, accessibility, and user experience for 30,000+ students and 3,000+ faculty/staff.",
+        "Developed Python automation workflows to analyse 1,500+ web pages and 20,000+ digital documents, identifying outdated and non-compliant content for remediation.",
+        "Applied ML classification to categorize 4,000+ university documents and leveraged GA4 analytics to support data-driven improvements across campus websites.",
         "Diagnosed and resolved 100+ weekly cross-platform technical issues (Windows, Linux, macOS) using ServiceNow, improving system stability and reducing downtime for 1,000+ users.",
         "Deployed and maintained 40+ lab systems using SCCM, improving software reliability and lab uptime.",
         "Optimized ServiceNow workflows and documentation, reducing repeat issue frequency and improving ticket resolution times.",
       ],
-      tags: ["ServiceNow", "SCCM", "Windows", "Linux", "macOS"],
+      tags: ["Python", "Web Development", "GA4", "ML", "ServiceNow", "SCCM"],
     },
     {
-      company: "Trellix (formerly McAfee Enterprise)",
+      company: "Trellix",
       role: "Associate Technical Support Engineer",
       location: "Bengaluru, India",
       dates: "Jan 2022 – Feb 2023",
       logo: "/logos/trellix.png",
       bullets: [
-        "Provided technical support for FireEye/Trellix cybersecurity products (NX, EX, FX, AX, CM, PX-IA, Helix), troubleshooting and managing appliances, which reduced average resolution time and improved customer satisfaction.",
-        "Supported incident response, forensic analysis, remediation, and breach-prevention by handling customer calls, chats, and remote sessions, enabling timely containment of threats and preserving client data integrity.",
-        "Identified and reproduced customer issues in the lab, found root causes, and created Jira tickets to speed up engineering fixes.",
+        "Resolved 300+ enterprise technical support cases across 7+ FireEye/Trellix security platforms, achieving a 95%+ customer satisfaction rate through phone, chat, and remote support.",
+        "Reduced incident resolution time by 30% through effective troubleshooting, incident response, forensic analysis, and remediation for enterprise security environments.",
+        "Identified and reproduced product defects, performed root-cause analysis, and collaborated with engineering by creating Jira tickets, reducing bug verification time by 25%.",
       ],
       tags: ["Cybersecurity", "Jira", "Incident Response", "Helix"],
     },
